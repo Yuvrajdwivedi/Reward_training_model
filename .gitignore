@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+
+*.parquet
+*.csv
+*.json
+
+# 3. Ignore the massive base model (if you accidentally moved it here)
+QwenModel/
+
+# 4. Ignore the heavy training states inside your checkpoints 
+# (This keeps your adapter weights safe, but blocks the 10GB optimizer files)
+reward_model_output/checkpoint-*/optimizer.pt
+reward_model_output/checkpoint-*/rng_state*.pth
+reward_model_output/checkpoint-*/scheduler.pt
+reward_model_output/checkpoint-*/training_args.bin
