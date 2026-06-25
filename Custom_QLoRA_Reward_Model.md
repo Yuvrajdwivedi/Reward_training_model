@@ -785,8 +785,8 @@ If you use this project in research, please cite:
 For issues, questions, or discussions:
 
 - **GitHub Issues:** [Create an issue](#)
-- **Email:** your.email@example.com
-- **LinkedIn:** [Your profile](#)
+- **Email:** yuvrajdwivedi18@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/yuvraj573
 
 ---
 
